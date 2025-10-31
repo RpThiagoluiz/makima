@@ -87,7 +87,7 @@ jobs:
           token: ${{ secrets.EXPO_TOKEN }}
 
       - name: 🩺 Run Expo Doctor
-        run: npx expo doctor
+        run: npx expo-doctor
 
   format-check:
     name: 💄 Format Check
