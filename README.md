@@ -1,6 +1,6 @@
-# Welcome to your Expo app 👋
+# Makima 🦊
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um projeto [Expo](https://expo.dev) com arquitetura modular e melhores práticas de desenvolvimento.
 
 ## Get started
 
