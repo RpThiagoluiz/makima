@@ -22,24 +22,24 @@ export const NeonColors = {
 
 export const Colors = {
   light: {
-    // Light mode (minimal usage - app is primarily dark)
-    primary: '#0E0E10',
-    secondary: '#1A1A1F',
-    background: '#FFFFFF',
-    surface: '#F5F5F5',
-    accent: neonGreen,
-    accentSecondary: neonBlue,
-    error: neonRed,
-    warning: '#FF9500',
-    success: neonGreen,
-    textPrimary: '#0E0E10',
-    textSecondary: '#666666',
-    textMuted: '#999999',
-    border: '#E0E0E0',
-    icon: '#666666',
-    tabIconDefault: '#999999',
-    tabIconSelected: neonGreen,
-    tint: neonGreen,
+    // Dark mode (primary theme)
+    primary: '#0E0E10', // Main background (almost black, matte)
+    secondary: '#1A1A1F', // Secondary surfaces
+    background: '#0E0E10', // Main background
+    surface: '#1A1A1F', // Cards, modals, elevated surfaces
+    accent: neonGreen, // Primary buttons, highlights
+    accentSecondary: neonBlue, // Secondary actions
+    error: neonRed, // Errors, destructive actions
+    warning: '#FF6D00', // Warnings
+    success: neonGreen, // Success states
+    textPrimary: '#FFFFFF', // Main text
+    textSecondary: '#9EA3A8', // Secondary text, descriptions
+    textMuted: '#666666', // Disabled, placeholder text
+    border: '#2A2A2F', // Subtle borders
+    icon: '#9EA3A8', // Default icons
+    tabIconDefault: '#9EA3A8', // Inactive tab icons
+    tabIconSelected: neonGreen, // Active tab icons
+    tint: neonGreen, // App tint color
   },
   dark: {
     // Dark mode (primary theme)

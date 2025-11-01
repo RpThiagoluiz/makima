@@ -1,4 +1,5 @@
 // Shared Components Exports
+export { Button } from './button';
 export { ExternalLink } from './external-link';
 export { HapticTab } from './haptic-tab';
 export { HelloWave } from './hello-wave';
